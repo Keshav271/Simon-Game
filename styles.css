@@ -1,0 +1,79 @@
+body{
+  background-color: #011F3F;
+  line-height: 1.5;
+  color:#FEF2BF;
+  font-family: cursive;
+}
+footer{
+  margin-top: 4%;
+}
+/*============================Instruction CSS==========================*/
+
+.instructHead{
+  font-family: cursive;
+  font-size: 2.9rem;
+}
+
+  .bodyIns{
+    width:60%;
+    margin:auto 10%;
+    text-align: left;
+  }
+.btnInstruct{
+  background-color: #011F3F;
+  border-radius: 20%;
+  border: #FEF2BF;
+  border-style: solid;
+  height:50px;
+  width: 130px;
+  color:#FEF2BF;
+  padding: 10px;
+  font-size: 1rem;
+  align-self: center;
+}
+:hover.btnInstruct{
+  background-color: red;
+}
+
+/*=================================Index CSS=========================*/
+.index{
+    text-align: center;
+}
+.Gameh1{
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3rem;
+}
+.grid-container{
+  display: inline-grid;
+  grid-gap: 19px;
+  grid-template-columns: auto auto;
+}
+.btn {
+    margin: 25px;
+    display: inline-block;
+    height: 200px;
+    width: 200px;
+    border: 10px solid black;
+    border-radius: 20%;
+  }
+  .red{
+    background-color: red;
+  }
+  .blue{
+    background-color: blue;
+  }
+  .green{
+    background-color: green;
+  }
+  .yellow{
+    background-color: yellow;
+  }
+  /*-==========================Java Script============================*/
+  .pressed {
+    box-shadow: 0 0 20px white;
+    background-color: grey;
+  }
+  .game-over {
+    background-color: red;
+    opacity: 0.8;
+  }
